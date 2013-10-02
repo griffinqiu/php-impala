@@ -7,3 +7,4 @@ Steps
     Modify the include in hive_metastore.thrift to just be 'fb303.thrift'
     Namespace everything with 'namespace php ...'
     for x in thrift/*.thrift; do thrift -gen php -out lib $x; done
+    cp ~/src/thrift/lib/php/lib/Thrift/ lib/Thrift -r
