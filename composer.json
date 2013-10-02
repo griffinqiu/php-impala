@@ -1,0 +1,12 @@
+{
+    "name": "rjmetrics/php-impala",
+    "description": "An Impala library built with Thrift and love",
+    "authors": [
+        {
+            "name": "Buck Ryan",
+            "email": "fryan@rjmetrics.com"
+        }
+    ],
+    "require": {
+    }
+}
