@@ -20,6 +20,7 @@
 
 namespace cpp impala
 namespace java com.cloudera.impala.thrift
+namespace php Impala
 
 include "Exprs.thrift"
 include "Types.thrift"

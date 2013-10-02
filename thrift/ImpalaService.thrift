@@ -14,6 +14,7 @@
 
 namespace cpp impala
 namespace java com.cloudera.impala.thrift
+namespace php Impala
 
 include "Status.thrift"
 include "beeswax.thrift"

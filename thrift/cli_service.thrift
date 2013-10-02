@@ -34,6 +34,7 @@
 
 namespace java org.apache.hive.service.cli.thrift
 namespace cpp apache.hive.service.cli.thrift
+namespace php Thrift.Cli
 
 // List of protocol versions. A new token should be
 // added to the end of this list every time a change is made.

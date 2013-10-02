@@ -21,6 +21,7 @@
  */
 namespace cpp parquet
 namespace java parquet.format
+namespace php Parquet
 
 /**
  * Types supported by Parquet.  These types are intended to be used in combination

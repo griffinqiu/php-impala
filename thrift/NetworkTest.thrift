@@ -13,6 +13,7 @@
 // limitations under the License.
 
 namespace cpp impalatest
+namespace php Impala\Test
 
 struct ThriftDataParams {
   1: required string data

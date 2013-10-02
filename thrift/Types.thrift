@@ -14,6 +14,7 @@
 
 namespace cpp impala
 namespace java com.cloudera.impala.thrift
+namespace php Impala
 
 typedef i64 TTimestamp
 typedef i32 TPlanNodeId
