@@ -24,7 +24,7 @@
 namespace java com.facebook.fb303
 namespace cpp facebook.fb303
 namespace perl Facebook.FB303
-namespace php Faceboox.FB303
+namespace php Facebook.FB303
 
 /**
  * Common status reporting mechanism across all services
