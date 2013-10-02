@@ -15,7 +15,7 @@ $socket = new TSocket('127.0.0.1', 50000);
 $transport = new TBufferedTransport($socket);
 $transport->open();
 $protocol = new TBinaryProtocol($transport);
-$client = new ImpalaServiceClient($protocol);
+$client = new Impala\ImpalaServiceClient($protocol);
 
 $query = new Beeswax\Query();
 $query->query = 'SHOW TABLES';

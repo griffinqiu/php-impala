@@ -23,7 +23,7 @@ interface BeeswaxServiceIf {
   public function fetch(\Beeswax\QueryHandle $query_id, $start_over, $fetch_size);
   public function get_state(\Beeswax\QueryHandle $handle);
   public function get_results_metadata(\Beeswax\QueryHandle $handle);
-  public function echo($s);
+  public function echos($s);
   public function dump_config();
   public function get_log($context);
   public function get_default_configuration($include_hadoop);
@@ -372,7 +372,7 @@ class BeeswaxServiceClient implements \Beeswax\BeeswaxServiceIf {
     throw new \Exception("get_results_metadata failed: unknown result");
   }
 
-  public function echo($s)
+  public function echos($s)
   {
     $this->send_echo($s);
     return $this->recv_echo();
