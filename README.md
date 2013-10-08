@@ -11,3 +11,8 @@ Steps
 
 With inspiration and help from
 [php\_impala\_phar](https://github.com/rmcfrazier/php_impala_phar)
+
+Thrift things that needed to be fixed:
+
+1. function echo
+2. GLOBAL keyword
